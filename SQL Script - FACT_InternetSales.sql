@@ -28,6 +28,6 @@ SELECT
 FROM 
   [AdventureWorksDW2019].[dbo].[FactInternetSales]
 WHERE 
-  LEFT (OrderDateKey, 4) >= YEAR(2021) -2 -- Ensures we always only bring two years of date from extraction. We could use GETDATE() function if we want to track it back from present day 
+  LEFT (OrderDateKey, 4) >= 2021 -2 -- Ensures we always only bring two years of date from extraction. We could use GETDATE() function if we want to track it back from present day 
 ORDER BY
   OrderDateKey ASC
