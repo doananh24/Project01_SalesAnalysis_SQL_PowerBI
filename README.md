@@ -8,12 +8,19 @@ This is a sales analysis project performing EDA in MSSQL then visualize the data
 
 This dataset can be found in Microsoft AdventureWorks sample database.
 
+### Business Request & User Stories
+
+The business request for this data analyst project was an executive sales report for sales managers. Based on the request that was made from the business we following user stories were defined to fulfill delivery and ensure that acceptance criteria’s were maintained throughout the project.
+
+![image](https://github.com/user-attachments/assets/fa698e26-cff9-44af-b48e-5f13119064fd)
+
+
 ### Tools
 
 - SQL Sever  - Data Cleaning
 - Power BI - Data Modeling , Data Analysis
   
-### Data Cleaning/ Preparation
+### Data Cleaning/ Preparation (SQL)
 
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection
@@ -173,7 +180,14 @@ ORDER BY
 
 
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis (Power BI)
+
+Data Modeling
+
+Below is a screenshot of the data model after cleansed and prepared tables were read into Power BI.
+
+![image](https://github.com/user-attachments/assets/646eb7f2-0963-43ee-87e5-a7f66f0ef04d)
+
 
 EDA involved exploring the sales data to answer key questions, such as:
 
